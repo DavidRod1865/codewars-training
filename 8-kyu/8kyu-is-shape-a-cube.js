@@ -13,5 +13,5 @@
 // Note: side will be an integer
 
 var cubeChecker = function(volume, side){
-    return volume == side * side * side && volume > 0 ? true : false
+    return volume == side * side * side && side > 0 ? true : false
   };
